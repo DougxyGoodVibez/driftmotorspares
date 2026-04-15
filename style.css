@@ -1,0 +1,116 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0ea7a7;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    background: #0b8f8f;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Section Titles */
+h2 {
+    color: #0ea7a7;
+    margin-bottom: 10px;
+}
+
+/* Product Grid */
+.products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Product Card */
+.product-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+button, a.button {
+    display: inline-block;
+    background: #0ea7a7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover, a.button:hover {
+    background: #0b8f8f;
+}
+
+/* Footer */
+footer {
+    background: #0ea7a7;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
